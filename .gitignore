@@ -1,2 +1,8 @@
 venv/
 __pycache__/
+*.pyd
+*.dll
+*.lib
+*.bin
+*.ckpt
+
