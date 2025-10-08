@@ -4,7 +4,7 @@ from transformers import pipeline
 st.title("📚 AI Study Buddy")
 
 # Create AI summarizer
-summarizer = pipeline("summarization")
+summarizer = pipeline("summarization",model="facebook/bart-large-cnn")
 
 # User input
 user_text = st.text_area("Enter your topic or notes here:")
